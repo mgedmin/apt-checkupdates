@@ -1,0 +1,19 @@
+apt-checkupdates (0.3-1) unstable; urgency=low
+
+  * Newer version of apt changed the phrasing of "0 packages upgraded" a bit.
+
+ -- Marius Gedminas <mgedmin@b4net.lt>  Thu, 22 Jan 2003 13:05:48 +0200
+
+apt-checkupdates (0.2-1) unstable; urgency=low
+
+  * Fixed cron script to use full pathname and check for existence of the
+    script.
+
+ -- Marius Gedminas <mgedmin@delfi.lt>  Thu, 22 Aug 2002 23:21:52 +0200
+
+apt-checkupdates (0.1-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Marius Gedminas <mgedmin@delfi.lt>  Thu, 22 Aug 2002 23:21:52 +0200
+

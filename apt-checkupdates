@@ -1,0 +1,15 @@
+#!/bin/sh
+# A script to download available Debian updates and list packages that
+# will be updated. Designed to be quiet enough to be run from cron.
+#
+# Copyright (c) 2002 Marius Gedminas <mgedmin@b4net.lt>
+# Licensed under the GNU GPL.
+
+apt-get update -qq
+apt-get dist-upgrade -d -u -y -q | fgrep -v "Reading Package Lists...
+Building Dependency Tree...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+0 packages upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+0 packages upgraded, 0 newly installed, 0 to remove and 0  not upgraded.
+Download complete and in download only mode"
+exit 0
