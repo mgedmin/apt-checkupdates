@@ -1,3 +1,9 @@
+apt-checkupdates (0.3-2) unstable; urgency=low
+
+  * Updated my email in apt-checkupdates(8).
+
+ -- Marius Gedminas <mgedmin@b4net.lt>  Sun, 16 May 2004 19:28:37 +0300
+
 apt-checkupdates (0.3-1) unstable; urgency=low
 
   * Newer version of apt changed the phrasing of "0 packages upgraded" a bit.
