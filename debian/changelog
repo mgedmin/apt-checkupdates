@@ -1,3 +1,10 @@
+apt-checkupdates (0.4-1) unstable; urgency=low
+
+  * Newer version of apt changed the capitalization of "Reading package lists"
+    and "Building dependency tree".
+
+ -- Marius Gedminas <mgedmin@b4net.lt>  Wed,  1 Mar 2006 23:22:43 +0200
+
 apt-checkupdates (0.3-2) unstable; urgency=low
 
   * Updated my email in apt-checkupdates(8).
