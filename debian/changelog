@@ -1,3 +1,9 @@
+apt-checkupdates (0.4-2) gutsy; urgency=low
+
+  * Change architecture to "all" instead of "any".
+
+ -- Marius Gedminas <marius@gedmin.as>  Mon, 17 Dec 2007 19:06:00 +0200
+
 apt-checkupdates (0.4-1) unstable; urgency=low
 
   * Newer version of apt changed the capitalization of "Reading package lists"

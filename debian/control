@@ -6,7 +6,7 @@ Build-Depends: debhelper (>> 3.0.0)
 Standards-Version: 3.5.2
 
 Package: apt-checkupdates
-Architecture: any
+Architecture: all
 Depends: apt
 Description: Automatically check and download Debian updates every night
  * This is an unofficial package.
