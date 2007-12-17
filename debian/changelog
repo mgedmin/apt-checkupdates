@@ -1,3 +1,10 @@
+apt-checkupdates (0.5-1) gutsy; urgency=low
+
+  * Cope with new apt-get message in Ubuntu gutsy: "Reading state
+    information".
+
+ -- Marius Gedminas <marius@gedmin.as>  Mon, 17 Dec 2007 19:12:06 +0200
+
 apt-checkupdates (0.4-2) gutsy; urgency=low
 
   * Change architecture to "all" instead of "any".
