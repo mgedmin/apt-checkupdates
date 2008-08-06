@@ -1,6 +1,7 @@
-apt-checkupdates (0.6-1) intrepid; urgency=low
+apt-checkupdates (0.6) intrepid; urgency=low
 
   * Set locale to C to avoid localised messages that we can't filter.
+  * Switch versioning scheme to Debian native.
 
  -- Marius Gedminas <marius@gedmin.as>  Wed, 06 Aug 2008 15:21:55 +0300
 
