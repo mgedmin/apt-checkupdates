@@ -5,6 +5,7 @@
 # Copyright (c) 2002, 2006 Marius Gedminas <mgedmin@b4net.lt>
 # Licensed under the GNU GPL.
 
+export LC_ALL=C
 apt-get update -qq
 apt-get dist-upgrade -d -u -y -q | fgrep -i -v "Reading Package Lists...
 Reading state information...
