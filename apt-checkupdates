@@ -2,7 +2,7 @@
 # A script to download available Debian updates and list packages that
 # will be updated. Designed to be quiet enough to be run from cron.
 #
-# Copyright (c) 2002, 2006 Marius Gedminas <mgedmin@b4net.lt>
+# Copyright (c) 2002, 2006 Marius Gedminas <marius@gedmin.as>
 # Licensed under the GNU GPL.
 
 export LC_ALL=C

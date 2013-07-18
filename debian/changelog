@@ -1,3 +1,9 @@
+apt-checkupdates (0.7) precise; urgency=low
+
+  * Updated my email.
+
+ -- Marius Gedminas <marius@gedmin.as>  Thu, 18 Jul 2013 19:53:06 +0300
+
 apt-checkupdates (0.6) intrepid; urgency=low
 
   * Set locale to C to avoid localised messages that we can't filter.
