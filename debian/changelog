@@ -1,6 +1,8 @@
 apt-checkupdates (0.7) precise; urgency=low
 
   * Updated my email.
+  * Fix cron error emails about non-zero exit code after removing (but not
+    purging) this package.
 
  -- Marius Gedminas <marius@gedmin.as>  Thu, 18 Jul 2013 19:53:06 +0300
 
