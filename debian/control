@@ -12,7 +12,7 @@ Description: Automatically check and download Debian updates every night
  * This is an unofficial package.
  .
  This package contains scripts to perform an apt-get update and download
- any available updates via apt-get dist-upgrade -d.  If any updates able
+ any available updates via apt-get dist-upgrade -d.  If any updates are
  available, the system administrator will be notified via email.  The
  packages are only downloaded into /var/cache/apt/archives, they will not
  be installed automatically.
