@@ -1,0 +1,4 @@
+debian/files
+debian/apt-checkupdates/
+debian/apt-checkupdates.substvars
+debian/apt-checkupdates.debhelper.log

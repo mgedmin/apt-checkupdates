@@ -4,6 +4,11 @@ version := $(shell dpkg-parsechangelog | awk '$$1 == "Version:" { print $$2 }')
 .PHONY: all
 all:
 
+.PHONY: install
+install:
+	install -d $(DESTDIR)/usr/sbin/
+	install apt-checkupdates $(DESTDIR)/usr/sbin/
+
 .PHONY: source-package
 source-package:
 	debuild -S -i -k$(GPGKEY)

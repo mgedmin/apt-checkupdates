@@ -1,6 +1,7 @@
 apt-checkupdates (0.7) precise; urgency=low
 
   * Updated my email.
+  * Modernize Debian packaging.
   * Fix cron error emails about non-zero exit code after removing (but not
     purging) this package.
 

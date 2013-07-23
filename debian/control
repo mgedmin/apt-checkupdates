@@ -2,12 +2,12 @@ Source: apt-checkupdates
 Section: admin
 Priority: optional
 Maintainer: Marius Gedminas <marius@gedmin.as>
-Build-Depends: debhelper (>> 3.0.0)
-Standards-Version: 3.5.2
+Build-Depends: debhelper (>> 8.0.0)
+Standards-Version: 3.9.4
 
 Package: apt-checkupdates
 Architecture: all
-Depends: apt
+Depends: apt, ${misc:Depends}
 Description: Automatically check and download Debian updates every night
  * This is an unofficial package.
  .
