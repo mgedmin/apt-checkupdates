@@ -1,3 +1,9 @@
+apt-checkupdates (0.8) precise; urgency=medium
+
+  * Cope with new apt-get message in Ubuntu xenial: "Calculating upgrade...".
+
+ -- Marius Gedminas <marius@gedmin.as>  Tue, 26 Apr 2016 08:45:28 +0300
+
 apt-checkupdates (0.7) precise; urgency=low
 
   * Updated my email.
